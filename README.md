@@ -9,18 +9,9 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
 
 ### For OSX
 
-    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+    $ git clone https://github.com/ivorpad/ERB-Sublime-Snippets.git ERB_Snippets
 
-### For Windows
-
-    $ cd %APPDATA%/Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
-
-### For Linux
-
-    $ cd ~/.Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
 
 ##Snippets and Bindings
 
@@ -32,17 +23,17 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
   </tr>
   <tr>
     <td>ERB tags</td>
-    <td>__er__</td>
+    <td>__-__</td>
     <td>`<%  %>`</td>
   </tr>
   <tr>
     <td>print ERB tags</td>
-    <td>__pe__</td>
+    <td>__=__</td>
     <td>`<%=  %>`</td>
   </tr>
   <tr>
     <td>print ERB comment</td>
-    <td>__pc__</td>
+    <td>__[__</td>
     <td>`<%#  %>`</td>
   </tr>
   <tr>
@@ -117,22 +108,7 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
   </tr>
 <table>
 
-##Resolve conflicting tab trigger
-
-It is possible for the snippets in this package to conflict with other Sublime text plugins, such as the built-in Rails package or [Rails Developer Snippets](https://github.com/j10io/railsdev-sublime-snippets). You may want to disable unwanted snippets.
-
-### For Sublime Text 2
-
-Delete unwanted snippet files from `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/<PackageName>/`
-
-### For Sublime Text 3
-
-1. Install the [PackageResourceViewer](https://github.com/skuroda/PackageResourceViewer) Package
-2. Open unwanted snippets with `PackageResourceViewer: Open Resource` command and comment it out
-
-##Questions, Comments, Concerns?
-
-Feel free to submit a pull request with any snippets you would like to add to the project. If you have any problems or suggestions you can contact me [on twitter](https://twitter.com/mattdrobertson).
+## Just changed a couple of triggers and I prefer instead on the regular `er`, `pc`, `pe`
 
 ##License
 
