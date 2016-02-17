@@ -33,7 +33,7 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
   </tr>
   <tr>
     <td>print ERB comment</td>
-    <td>__[__</td>
+    <td>__//__</td>
     <td>`<%#  %>`</td>
   </tr>
   <tr>
